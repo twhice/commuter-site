@@ -47,6 +47,11 @@ cargo install trunk
 cargo install wasm-bindgen-cli
 ```
 
+另外，本项目使用了`leptosfmt`对项目进行格式化，如果你不需要可以直接删掉`build.rs`，否则使用以下命令安装
+```bash
+cargo install leptosfmt
+```
+
 ## 构建页面
 
 万事俱备
